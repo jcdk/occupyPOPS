@@ -1,0 +1,23 @@
+.circled {
+	width: 70px;
+	height: 70px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin:auto;
+	border: 10px solid red;
+}
+
+.loading {
+	background-image: url('loading.gif');
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+
+.containing-element .ui-slider-switch { width: 9em }
+
+input.ui-slider-input, .ui-field-contain input.ui-slider-input {
+
+	width: 60px;
+
+}
