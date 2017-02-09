@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * A single location to store configuration.
+ */
+
+    // Add secret configurations
+    define('DB_HOST', '');
+    define('DB_NAME', '');
+    define('DB_NAME_ALT', '');
+    define('DB_USER', '');
+    define('DB_PASSWORD', '');
+    define('DB_PORT', '3306');
+
+    //put sha1() encrypted password here
+    define('SHAPASS','');
+
+    // Twitter config
+    define('CONSUMER_KEY', '');
+    define('CONSUMER_SECRET', '');
+    define('OAUTH_CALLBACK', '');
+
+    define('TOKEN_KEY', '');
+    define('TOKEN_SECRET', '');
+
+
+?>
